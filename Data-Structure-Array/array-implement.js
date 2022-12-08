@@ -33,7 +33,7 @@ class MyArray {
     for (let i = index; i < this.length - 1; i++) {
       this.data[i] = this.data[i + 1];
     }
-    delete this.data[this.length - 1];
+    delete this.data[this.length - 1]; //? last duplicate data
     this.length--;
   }
 }
